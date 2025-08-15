@@ -1,14 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
-/*div {
-    border: 2px solid green;
-}
-
-section {
-    border: 2px solid blue;
-}*/
 
 .section-1 {
     display: flex;
@@ -22,7 +14,7 @@ section {
 .navegation {
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 80%;
 }
 
 .navegation p {
@@ -45,18 +37,19 @@ section {
 
 .front-page {
     display: flex;
-    width: 900px;
+    column-gap: 60px;
+    width: 80%;
     margin-top: 50px;
 }
 
 .front-page-text {
-    width: 450px;
+    width: 50%;
     padding-right: 20px;
 }
 
 .front-page-text h1 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bold;
     color: #F9FAF8;
     margin: 0;
 }
@@ -67,16 +60,20 @@ section {
 
 .front-page-text button {
     background-color: #3882F6;
-    font-size: 15px;
+    font-size: 20px;
     color: #F9FAF8;
-    font-weight: 900;
-    padding: 3px 20px;
+    font-weight: 500;
+    padding: 7px 30px;
     border-radius: 7px;
-    border-color: #3882F6;
+    border-color: transparent;
+}
+
+.front-page-image {
+    width: 50%;
 }
 
 .front-page-image img {
-    width: 450px;
+    width: auto;
     height: auto;
 }
 
@@ -91,7 +88,7 @@ section {
 }
 
 .tittle h2 {
-    font-weight: 900;
+    font-weight: bold;
     font-size: 36px;
     color: #1F2937;
 }
@@ -171,13 +168,13 @@ section {
 }
 
 .section-4 .call-to-action button {
-    background-color: #3882F6;
-    font-size: 15px;
+    background-color: transparent;
+    font-size: 20px;
     color: #F9FAF8;
-    font-weight: 900;
-    padding: 3px 20px;
+    font-weight: 500;
+    padding: 7px 30px;
     border-radius: 7px;
-    border-color: #F9FAF8;
+    border-color: white;
 }
 
 .footer {
